@@ -10,7 +10,7 @@ const config: Config = {
   theme: {
     extend: {
         backgroundImage: {
-          "main-bg": "url(/bg-img.jpg)",
+          "main-bg": "url(/gray.webp)",
         },
      fontFamily:{
        bodyFont:['Poppins', ...defaultTheme.fontFamily.sans]

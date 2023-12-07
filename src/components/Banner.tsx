@@ -1,7 +1,6 @@
 "use client"
 import img1 from '../images/img1.webp'
 import img from '../images/img.webp'
-
 import Image from "next/image";
 import Slider from "react-slick";
 import {PiCaretLeftLight, PiCaretRightLight} from "react-icons/pi";

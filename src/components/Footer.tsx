@@ -6,7 +6,7 @@ import {
     BsFacebook,
     BsReddit,
 } from "react-icons/bs";
-// import payment from "@/images/payment.png";
+import payment from "@/images/payment.png";
 import Container from "./Container";
 import Logo from "./Logo";
 import Link from "next/link";
@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="w-full bg-darkText text-slate-100">
             <Container className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                 <div className="flex flex-col gap-y-4">
-                    <Logo />
+                    <Logo/>
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa in
                         sint incidunt, minima quos voluptates, nobis autem laborum earum est
@@ -26,29 +26,29 @@ const Footer = () => {
                     </p>
                     <div className="flex items-center gap-x-4">
                         <a href="https://www.youtube.com/@reactjsBD" target="_blank">
-              <span className="socialLink">
-                <BsYoutube />
-              </span>
+                            <span className="socialLink">
+                              <BsYoutube/>
+                            </span>
                         </a>
                         <a href="https://www.youtube.com/@reactjsBD" target="_blank">
-              <span className="socialLink">
-                <BsGithub />
-              </span>
+                             <span className="socialLink">
+                                <BsGithub/>
+                             </span>
                         </a>
                         <a href="https://www.youtube.com/@reactjsBD" target="_blank">
-              <span className="socialLink">
-                <BsLinkedin />
-              </span>
+                              <span className="socialLink">
+                                  <BsLinkedin/>
+                              </span>
                         </a>
                         <a href="https://www.youtube.com/@reactjsBD" target="_blank">
-              <span className="socialLink">
-                <BsFacebook />
-              </span>
+                              <span className="socialLink">
+                                <BsFacebook/>
+                              </span>
                         </a>
                         <a href="https://www.youtube.com/@reactjsBD" target="_blank">
-              <span className="socialLink">
-                <BsReddit />
-              </span>
+                              <span className="socialLink">
+                                <BsReddit/>
+                              </span>
                         </a>
                     </div>
                 </div>
@@ -56,27 +56,27 @@ const Footer = () => {
                     <p className="text-lg">Laset posts</p>
                     <ul className="text-sm font-light mt-2 flex flex-col gap-y-2">
                         <li className="flex flex-col">
-              <span className="text-slate hover:text-orange-600 cursor-pointer duration-200">
-                Where Music Is Headed Next
-              </span>
+                              <span className="text-slate hover:text-orange-600 cursor-pointer duration-200">
+                                Where Music Is Headed Next
+                              </span>
                             <span className="text-orange-600">January 31, 2022</span>
                         </li>
                         <li className="flex flex-col">
-              <span className="text-slate hover:text-orange-600 cursor-pointer duration-200">
-                Where Music Is Headed Next
-              </span>
+                              <span className="text-slate hover:text-orange-600 cursor-pointer duration-200">
+                                Where Music Is Headed Next
+                              </span>
                             <span className="text-orange-600">January 31, 2022</span>
                         </li>
                         <li className="flex flex-col">
-              <span className="text-slate hover:text-orange-600 cursor-pointer duration-200">
-                Where Music Is Headed Next
-              </span>
+                             <span className="text-slate hover:text-orange-600 cursor-pointer duration-200">
+                                 Where Music Is Headed Next
+                             </span>
                             <span className="text-orange-600">January 31, 2022</span>
                         </li>
                         <li className="flex flex-col">
-              <span className="text-slate hover:text-orange-600 cursor-pointer duration-200">
-                Where Music Is Headed Next
-              </span>
+                              <span className="text-slate hover:text-orange-600 cursor-pointer duration-200">
+                                  Where Music Is Headed Next
+                              </span>
                             <span className="text-orange-600">January 31, 2022</span>
                         </li>
                     </ul>
@@ -109,11 +109,11 @@ const Footer = () => {
                 </div>
                 <div>
                     <p className="text-lg mb-2">Pay us with your trusted services</p>
-                    {/*<Image*/}
-                    {/*    src={payment}*/}
-                    {/*    alt="payment banner image"*/}
-                    {/*    className="w-full h-10 object-cover"*/}
-                    {/*/>*/}
+                    <Image
+                        src={payment}
+                        alt="payment banner image"
+                        className="w-full h-15 px-4 object-cover bg-white"
+                    />
                 </div>
             </Container>
         </div>
